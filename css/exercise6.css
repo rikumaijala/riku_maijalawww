@@ -1,1 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
 
+body {
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2019%2F07%2F09%2F07%2F01%2Fbackground-4326353_960_720.jpg&imgrefurl=https%3A%2F%2Fpixabay.com%2Fillustrations%2Fbackground-texture-wall-plaster-4326353%2F&docid=HtrE1rBQVnw9IM&tbnid=RVhzo8BRnGVrzM%3A&vet=10ahUKEwjModqphbfnAhXklYsKHfszB_oQMwhBKAAwAA..i&w=960&h=678&bih=1315&biw=2279&q=background%20image&ved=0ahUKEwjModqphbfnAhXklYsKHfszB_oQMwhBKAAwAA&iact=mrc&uact=8");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+}
+
+/* Header */
+header{
+    background-color: rgb(17, 0, 255);
+    color: #f7f5f1;
+    padding: 60px;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 10px;
+}
+
+section{
+    float: left;
+    width: 30%;
+}
+section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #bbbbbb;
+    height: 300px;
+  }
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
