@@ -1,1 +1,18 @@
+body {
+    background-color: lightblue;
+  }
+  h1 {
+      color: red;
+    border-bottom: 16px solid red;
+  }
 
+  a {
+    color: hotpink;
+    text-decoration: underline;
+  }
+  a:hover {
+      color: red
+  }
+  figcaption {
+    display: block;
+  }
