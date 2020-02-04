@@ -1,5 +1,8 @@
-/* Header */
+* {
+    box-sizing: border-box;
+  }
 
+/* Header */
 header{
     background-color: rgb(17, 0, 255);
     color: #f7f5f1;
@@ -9,9 +12,16 @@ header{
 }
 
 nav{
+    float: left;
+    width: 30%;
     background-color: yellow;
     height: 300px;
+    padding: 20px;
 }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
 
 footer{
     background-color: black;
@@ -20,3 +30,15 @@ footer{
     text-align: center;
     font-size: 10px;
 }
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #bbbbbb;
+    height: 300px;
+  }
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
